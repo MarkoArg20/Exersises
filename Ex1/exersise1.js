@@ -1,12 +1,13 @@
 const today = new Date()
 const day = today.getDate()
 const daylist = ["Sunday", "Monday", "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"]
-console.log(`Today is: ${daylist[day]}`)
+
+
 let hour = today.getHours()
 let minute = today.getMinutes()
 let second = today.getSeconds()
-console.log(`Current time is: ${hour} : ${minute} : ${second}`)
 
+document.write(`Current time is: ${hour} : ${minute} : ${second}`)
 
 
 
